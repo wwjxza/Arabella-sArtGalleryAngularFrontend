@@ -1,0 +1,50 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+.form-control{
+    border-bottom-color: black;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 0%;
+    height: 40px;
+    width: 400px;
+    margin-top: 5px;
+    margin-left: 300px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+}
+
+.relative{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    z-index: 10;
+    right: 3%;
+    top: 15px;
+    color: black;
+}
+
+.font-style{
+    color: black;
+    font-weight: 500;
+
+}
+
+.bag-icon{
+    font-size: 30px; 
+    color: black;
+}
+

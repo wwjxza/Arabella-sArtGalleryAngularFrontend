@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "Stars",
+        "price": 88.88,
+        "description": "Stars are the diamonds in the dark sky at night. They bring light to the heart of people and the artist loves starts.",
+        "category": "Space",
+        "image": "assets/products/p01.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "title": "Planets",
+        "price": 86.95,
+        "description": "Space is a mystery place and attracts many scientists and artists. The artist used her imagination to explore and depict the space in her heart.",
+        "category": "Space",
+        "image": "assets/products/p02.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "title": "Red bird",
+        "price": 60.85,
+        "description": "Birds are the spirits of freedom. This red bird is a window to the deep heart of the artist who loves freedom and dreams to fly in the sky.",
+        "category": "Animals",
+        "image": "assets/products/p03.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "title": "Happy Meal",
+        "price": 79.95,
+        "description": "Depicting the fries with flowers in a cat-shaped plate shows the child part of the artist.",
+        "category": "Others",
+        "image": "assets/products/p04.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "title": "Yellow cat",
+        "price": 98.95,
+        "description": "Cats are the favorite animals of Arabella the Artist. She has drawn tons of cats. This yellow cat stares at us in a wild space, which shows the love of freedom air.",
+        "category": "Animals",
+        "image": "assets/products/p05.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "title": "Cat's house",
+        "price": 98.35,
+        "description": "Not only does the artist loves cats, but also she loves to draw cat's life. This house is a home for one of her cat.",
+        "category": "Buildings",
+        "image": "assets/products/p06.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "title": "Sunflower in Storm",
+        "price": 100.00,
+        "description": "In the artist's artwork, she has drawn lots of plants. Among those, this sunflower is very special. It represents the toughness and bravery of the artist.",
+        "category": "Plants",
+        "image": "assets/products/p07.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "title": "Flamingo and fish",
+        "price": 110.98,
+        "description": "This is a funny portrait. A flamingo is talking to a fish under beautiful sunshine. This is a very interesting moment and shows the kindness of the artist.",
+        "category": "Animals",
+        "image": "assets/products/p08.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "title": "Chasing",
+        "price": 150.00,
+        "description": "In a sunny day, a snake is chasing a mummy cat and her baby cat. High up in the tree, a mummy bird is flying back to her nest to feed her baby bird.",
+        "category": "Animals",
+        "image": "assets/products/p09.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 10,
+        "title": "Friends",
+        "price": 120.35,
+        "description": "In real life, cats don't usually get along well with dogs. However, in the eyes of the artist, they are friends.",
+        "category": "Animals",
+        "image": "assets/products/p10.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 11,
+        "title": "A sunny day",
+        "price": 88.88,
+        "description": "Bright sunshine, white clouds, blue sky and a happy cat. In the artist's heart, she is that happy cat.",
+        "category": "Animals",
+        "image": "assets/products/p11.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 12,
+        "title": "Silence",
+        "price": 110.25,
+        "description": "A house stands on the grass alone without people or animals. Everything is so quite and silent. Amid the busy life, we also need a place to relax.",
+        "category": "Buildings",
+        "image": "assets/products/p12.jpg",
+        "quantity": 1
+    }
+]

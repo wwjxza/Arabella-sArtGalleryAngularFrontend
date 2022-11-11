@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let product of spaceList">
+            <div class="card col-md-3">
+                <a [routerLink]="['/products', product.id]">
+                    <img src="{{product.image}}" alt="">
+                </a>
+                <h5 style="white-space: nowrap;overflow:hidden;text-overflow:ellipsis; max-width: 100ch">{{product.title}}</h5>
+                <p style="white-space: nowrap;overflow:hidden;text-overflow:ellipsis; max-width: 100ch"><strong>Description: </strong>{{product.description}}</p>
+                <p><strong>Price: </strong>${{product.price}}</p>
+            </div>
+        </ng-container>
+
+    </div>
+</div>
