@@ -24,6 +24,7 @@ export class ApiService {
   // }
 
   public search: BehaviorSubject<string> = new BehaviorSubject<string>('');
+  public categoryBehaviorSubject: BehaviorSubject<string> = new BehaviorSubject<string>('');
 
   getProducts(): Observable<any> {
     return this.http.get<any>("assets/products.json");

@@ -14,14 +14,21 @@ export class ProductsComponent implements OnInit {
   constructor(private api: ApiService) { }
 
   ngOnInit(): void {
-    this.api.getProducts().subscribe( res => {
-      this.productList = res;
+    this.api.categoryBehaviorSubject.subscribe( val => {
+      this.api.getProducts().subscribe( res => {
+        this.productList = res.filter( (x: any) => val === '' || x.category === val );
+      });
     });
 
     this.api.search.subscribe( val => {
       this.searchKeywords = val;
     });
 
+    
+
   }
+
+
+
 
 }

@@ -1,33 +1,38 @@
-<div class="card-top">
-    <div class="navbar-brand d-flex">
-        <div>
-            <ul class="nav justify-content-left">
-                <li class="nav-item">
-                  <a class="nav-link active font-style" href="#" routerLink="/animals">Animals</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-style" href="#" routerLink="/buildings">Buildings</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-style" href="#" routerLink="/space">Space</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link font-style" href="#" routerLink="/plants">Plants</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link font-style" href="#" routerLink="/others">Others</a>
-                </li>
-            </ul>
-        </div>
-        <div class="form-group relative">
-            <input type="text" class="shadow-none form-control" (keyup)="searchEvent($event)"  placeholder="Search...">
-            <span class="fas fa-search search-icon"></span>
-        </div>
-        <div>
-            <button routerLink="cart" class="btn btn-primary" style="background-color:transparent; border: none">
-                <i class="fa fa-bag-shopping bag-icon"></i>
-                <span style="font-size: 10px" class="badge bg-danger">{{itemsAmt}}</span>
-            </button>
+<div class="container">
+    <div class="card-top">
+        <div class="navbar-brand d-flex">
+            <div>
+                <ul class="nav justify-content-left">
+                    <li class="nav-item">
+                        <a class="nav-link active font-style" routerLink="." (click)="setCategory('')" >All</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active font-style" routerLink="." (click)="setCategory('Animals')" >Animals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active font-style" routerLink="." (click)="setCategory('Buildings')">Buildings</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link font-style"  routerLink="." (click)="setCategory('Space')">Space</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-style"routerLink="." (click)="setCategory('Plants')">Plants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-style" routerLink="." (click)="setCategory('Others')">Others</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-group relative">
+                <input type="text" class="shadow-none form-control" (keyup)="searchEvent($event)"  placeholder="Search...">
+                <span class="fas fa-search search-icon"></span>
+            </div>
+            <div>
+                <button routerLink="cart" class="btn btn-primary" style="background-color:transparent; border: none">
+                    <i class="fa fa-bag-shopping bag-icon"></i>
+                    <span style="font-size: 10px" class="badge bg-danger">{{itemsAmt}}</span>
+                </button>
+            </div>
         </div>
     </div>
 </div>

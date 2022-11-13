@@ -39,4 +39,11 @@ export class NavigationComponent implements OnInit {
 
   }
 
+  setCategory(cat:string) {
+    this.apiService.categoryBehaviorSubject.next(cat);
+    console.log(cat);
+  }
+  
+
+
 }
